@@ -2,13 +2,14 @@
 
 # dependencies
 node_modules
-/.pnp
+.pnp
 .pnp.js
 config.env
 # testing
-/coverage
+coverage
 
 # production
+
 build
 
 # misc
