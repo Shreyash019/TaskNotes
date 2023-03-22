@@ -1,7 +1,8 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 const taskModel = require('../models/taskModel')
 
 exports.getAllTasks = async (req, res)=>{
+    
     const allTask = await taskModel.find()
 
     res.status(200).json({
